@@ -1,8 +1,8 @@
-# test
-<img src="https://img.shields.io/github/MIT">
+# something
+<img src="https://img.shields.io/github/license/MIT">
 
 ## Description
-thisis a description
+descriptionssssss
 
 ## Table of Contents
 *[Installation](#Installation)
@@ -20,22 +20,22 @@ thisis a description
 *[License](#License)
 
 ## Installation
-these are intructuction
+installsssss
 
 ## Usage
-useful info
+useful info and shit
 
 ## Contributing
-guidelines
+none
 
 ## Tests
 
 ## Credits
-someone
+somewhere
 
 ## Questions
 for any additional questions please e-mail me at:
 
-somwhere@mail
+address
 
 ## License
