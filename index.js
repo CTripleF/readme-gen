@@ -110,7 +110,7 @@ const promptUser = () => {
 }
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-  fs.writeFile(fileName, generateMarkdown(data), function(err) {     
+  fs.writeFile('./generated-readme/'+fileName, generateMarkdown(data), function(err) {     
     if (err) throw err;
     // if no error
     console.log("Data is written to file successfully.")

@@ -1,8 +1,8 @@
-# readme-gen
-
+# test
+<img src="https://img.shields.io/github/license/CTripleF/test">
 
 ## Description
-This application is intended to take user input and generate a README file that is professional and functional.
+this is a deescription
 
 ## Table of Contents
 *[Installation](#Installation)
@@ -14,21 +14,21 @@ This application is intended to take user input and generate a README file that 
 *[License](#License)
 
 ## Installation
-npm inquirer is needed for functionality
+download somethings
 
 ## Usage
-For best results Fill out all questions thoroughly
+not much is usefull
 
 ## Contributing
-there are currently no guidelines for contribution on this project
+there are none 
 
 ## Tests
 
 ## Credits
-Chris F (CTripleF)
+CTripleF
 
 ## Questions
 for any additional questions please e-mail me at:
-cjfabra1@gmail.com
+dont worry about it
 
 ## License
