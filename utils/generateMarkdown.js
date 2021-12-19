@@ -28,7 +28,8 @@ function renderLicenseSection(license) {
     return '';
   }
   else {
-    return `## License
+    return `
+## License
 ${license}`
   }
 }
