@@ -1,34 +1,41 @@
 # test
-<img src="https://img.shields.io/github/license/CTripleF/test">
+<img src="https://img.shields.io/github/MIT">
 
 ## Description
-this is a deescription
+thisis a description
 
 ## Table of Contents
 *[Installation](#Installation)
+
 *[Usage](#Usage)
+
 *[Contributing](#Contributing)
+
 *[Tests](#Tests)
+
 *[Credits](#Credits)
+
 *[Questions](#Questions)
+
 *[License](#License)
 
 ## Installation
-download somethings
+these are intructuction
 
 ## Usage
-not much is usefull
+useful info
 
 ## Contributing
-there are none 
+guidelines
 
 ## Tests
 
 ## Credits
-CTripleF
+someone
 
 ## Questions
 for any additional questions please e-mail me at:
-dont worry about it
+
+somwhere@mail
 
 ## License
