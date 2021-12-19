@@ -1,6 +1,6 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {
+function renderLicenseBadge(license, username, title) {
   if (license === 'None') {
     return '';
   }
@@ -28,7 +28,8 @@ function renderLicenseSection(license) {
     return '';
   }
   else {
-    return `## License`
+    return `## License
+${license}`
   }
 }
 
