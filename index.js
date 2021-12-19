@@ -60,40 +60,16 @@ const questions = [
     type: 'input',
     name: 'install',
     message: 'What are the instructions for install if neccessary?',
-    // validate: installInput => {
-    //   if (installInput) {
-    //     return true;
-    //   } else {
-    //     console.log('Please enter a title');
-    //     return false;
-    //   }
-    // }
   },
   {
     type: 'input',
     name: 'usage',
     message: 'Please describe any useful usage information.',
-    // validate: usageInput => {
-    //   if (usageInput) {
-    //     return true;
-    //   } else {
-    //     console.log('Please enter a title');
-    //     return false;
-    //   }
-    // }
   },
   {
     type: 'input',
     name: 'contributing',
     message: 'What are the guidelines for making a contribution to this project?',
-    // validate: usageInput => {
-    //   if (usageInput) {
-    //     return true;
-    //   } else {
-    //     console.log('Please enter a title');
-    //     return false;
-    //   }
-    // }
   },
   {
     type: 'list',
@@ -103,13 +79,14 @@ const questions = [
   },
 ];
 
-
-
+// funtion declaration where questions will be used
 const promptUser = () => {
   return inquirer.prompt(questions);
 }
+
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
+  //write generated README into folder "generated-readme" instead of rewriting root READme for application
   fs.writeFile('./generated-readme/'+fileName, generateMarkdown(data), function(err) {     
     if (err) throw err;
     // if no error
@@ -120,6 +97,7 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
+  // pass Promise data from promptUser to writeToFile in form of readmeData
   promptUser().then(readmeData => {
     writeToFile('README.md', readmeData)
 })

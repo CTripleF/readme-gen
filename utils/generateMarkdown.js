@@ -5,7 +5,8 @@ function renderLicenseBadge(license) {
     return '';
   }
   else {
-    return `<img src="https://img.shields.io/github/license/${license}">`
+    // wont return full badge unless repo has a license
+    return `<img src="https://img.shields.io/github/license/${username}/${title}">`
   }
 }
 
@@ -34,7 +35,7 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-${renderLicenseBadge(data.license)}
+${renderLicenseBadge(data.license, data.username, data.title)}
 
 ## Description
 ${data.description}
